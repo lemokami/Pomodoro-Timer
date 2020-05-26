@@ -33,23 +33,29 @@ body {
 }
 
 .start {
-    background-color: #1a1a1a;
+    background-color: rgb(198, 235, 234);
     /* color: #f7665c; */
-    color: rgb(92, 212, 210);
-    border: none;
+    color: #1a1a1a;
+    border: 0;
     border-radius: 50%;
     height: 2rem;
     width: 2rem;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease;
     cursor: pointer;
+}
+
+.start:hover {
+    background-color: rgb(198, 235, 234);
+    color: #1a1a1a;
+
+}
+
+.new-ico {
+    transform: translatey(2rem);
 }
 
 .fas {
     pointer-events: none;
-}
-
-.disabled {
-    opacity: 10%;
 }
 
 .link {
