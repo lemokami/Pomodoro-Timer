@@ -7,12 +7,14 @@ watch.innerText = "25:00";
 // Listeners
 btn.addEventListener("click", () => {
   let time = 25 * 60;
+  btn.classList.toggle("disabled");
   btn.disabled = true;
   const timer = setInterval(() => {
     if (time <= 0) {
+      btn.classList.toggle("disabled");
       btn.disabled = false;
       clearInterval(timer);
-      watch.innerText = "00:06";
+      watch.innerText = "25:00";
       return 0;
     }
     time--;
