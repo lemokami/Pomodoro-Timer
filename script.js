@@ -2,17 +2,20 @@ const watch = document.querySelector(".timer");
 const btn = document.querySelector(".start");
 
 //other
-watch.innerText = "00:06";
+watch.innerText = "25:00";
+
 // Listeners
 btn.addEventListener("click", () => {
-  let time = 0.1 * 60;
+  let time = 25 * 60;
   btn.disabled = true;
   const timer = setInterval(() => {
-    time--;
     if (time <= 0) {
       btn.disabled = false;
       clearInterval(timer);
+      watch.innerText = "00:06";
+      return 0;
     }
+    time--;
     let hour = Math.floor(time / 60);
     hour = hour >= 10 ? hour : "0" + hour;
     let sec = Math.floor(time % 60);
@@ -22,5 +25,4 @@ btn.addEventListener("click", () => {
 
     watch.innerText = `${hour}:${sec}`;
   }, 1000);
-  watch.innerText = "00:06";
 });
