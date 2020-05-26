@@ -50,12 +50,11 @@ body {
 
 }
 
-.new-ico {
-    transform: translatey(2rem);
-}
+
 
 .fas {
     pointer-events: none;
+    transition: all .5s ease;
 }
 
 .link {
