@@ -50,14 +50,6 @@ body {
     opacity: 10%;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
 .link {
     text-decoration: none;
     color: white;
