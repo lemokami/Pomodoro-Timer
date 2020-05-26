@@ -20,7 +20,7 @@ a {
 }
 
 body {
-    background: #000927;
+    background: #f44336;
     color: white;
     font-family: 'Poiret One', cursive;
     display: flex;
@@ -33,12 +33,17 @@ body {
 
 .start {
     background-color: white;
+    color: #f44336;
     border: none;
     border-radius: 50%;
     height: 2rem;
     width: 2rem;
     transition: all 0.5s ease-in;
     cursor: pointer;
+}
+
+.fas {
+    pointer-events: none;
 }
 
 .disabled {
