@@ -33,7 +33,7 @@ body {
 }
 
 .start {
-    background-color: rgb(198, 235, 234);
+    background-color: rgb(186, 237, 220);
     /* color: #f7665c; */
     color: #1a1a1a;
     border: 0;
@@ -45,7 +45,7 @@ body {
 }
 
 .start:hover {
-    background-color: rgb(198, 235, 234);
+    background-color: rgb(142, 207, 203);
     color: #1a1a1a;
 
 }
