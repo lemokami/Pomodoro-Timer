@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 button:focus,
 input:focus {
-    outline: none;
+	outline: none;
 }
 
 input,
@@ -16,53 +16,52 @@ textarea,
 button,
 select,
 a {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
-    /* background: #f7665c; */
-    background: linear-gradient(135deg, #85C9C8, #D4FEE6, #E5FDC9);
-    color: #1a1a1a;
-    font-family: 'Poiret One', cursive;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
-    font-size: 5rem;
+	/* background: #f7665c; */
+	background: #151515;
+	color: #ffdd74;
+	font-family: 'Poiret One', cursive;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	font-size: 5rem;
 }
 
 .start {
-    background-color: rgb(186, 237, 220);
-    /* color: #f7665c; */
-    color: #1a1a1a;
-    border: 0;
-    border-radius: 50%;
-    height: 2rem;
-    width: 2rem;
-    transition: all 0.5s ease;
-    cursor: pointer;
+	background-color: #202020;
+	/* color: #f7665c; */
+	color: white;
+	border: 0;
+	border-radius: 50%;
+	height: 2rem;
+	width: 2rem;
+	transition: all 0.5s ease;
+	cursor: pointer;
 }
 
 .start:hover {
-    background-color: rgb(142, 207, 203);
-    color: #1a1a1a;
-
+	background-color: #ffdd74;
+	color: #1a1a1a;
 }
 
 .fas {
-    pointer-events: none;
-    transition: all .5s ease;
+	pointer-events: none;
+	transition: all .5s ease;
 }
 
 .link {
-    text-decoration: none;
-    color: #1a1a1a;
-    font-size: 1rem;
-    margin-top: 2rem;
-    transition: all 0.5s ease;
+	text-decoration: none;
+	color: white;
+	font-size: 1rem;
+	margin-top: 2rem;
+	transition: all 0.5s ease;
 }
 
 .link:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
